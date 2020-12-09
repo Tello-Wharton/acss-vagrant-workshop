@@ -1,5 +1,5 @@
-apt update
-apt install software-properties-common
+apt -y update
+apt -y install software-properties-common
 
-add-apt-repository ppa:deadsnakes/ppa
-apt install python3.9
+add-apt-repository -y ppa:deadsnakes/ppa
+apt -y install python3.9
